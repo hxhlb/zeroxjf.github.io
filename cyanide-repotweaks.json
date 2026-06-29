@@ -4,8 +4,8 @@
   "tweaks": [
     {
       "id": "lightsaber.hide-dock",
-      "name": "Hide Dock",
-      "description": "Hides the dock background on the home screen. Also hides app icons in the dock — move them to the home screen grid before applying. Respring to restore.",
+      "name": "隐藏 Dock",
+      "description": "隐藏主屏幕 Dock 背景。也会隐藏 Dock 中的 app 图标，请在应用前先把图标移到主屏幕网格。恢复需要重启 SpringBoard。",
       "version": "1.0.5",
       "author": "@MinePlayer16",
       "symbol": "dock.rectangle",
@@ -13,8 +13,8 @@
     },
     {
       "id": "lightsaber.hide-homebar",
-      "name": "Hide Home Bar",
-      "description": "Hides the bottom home indicator. Respring after applying so SpringBoard refreshes the asset cache.",
+      "name": "隐藏 Home Bar",
+      "description": "隐藏底部 Home 指示条。应用后需要重启 SpringBoard，让 SpringBoard 刷新资源缓存。",
       "version": "1.0.2",
       "author": "zeroxjf",
       "symbol": "line.3.horizontal",
@@ -22,8 +22,8 @@
     },
     {
       "id": "lightsaber.dock-color",
-      "name": "Dock Color",
-      "description": "Colors the dock background with a custom color. Works on iOS 26 and earlier.",
+      "name": "Dock 颜色",
+      "description": "使用自定义颜色修改 Dock 背景。适用于 iOS 26 及更早版本。",
       "version": "1.0.0",
       "author": "@MinePlayer16",
       "symbol": "paintpalette.fill",
@@ -31,20 +31,20 @@
     },
     {
       "id": "lightsaber.hide-search-pill",
-      "name": "Hide Search Pill",
-      "description": "Hides the search pill on the home screen. Only tested on iOS 18 and below.",
+      "name": "隐藏搜索按钮",
+      "description": "隐藏主屏幕上的搜索按钮。仅在 iOS 18 及以下版本测试过。",
       "version": "1.0.6",
       "author": "@MinePlayer16",
       "symbol": "magnifyingglass",
       "scriptURL": "https://hxhlb.github.io/hide_searchpill.js?v=7",
       "maxIOS": "18.x",
-      "compatibilityNote": "Only tested on iOS 18 and below.",
-      "unsupportedMessage": "Only tested on iOS 18 and below."
+      "compatibilityNote": "仅在 iOS 18 及以下版本测试过。",
+      "unsupportedMessage": "仅在 iOS 18 及以下版本测试过。"
     },
     {
       "id": "lightsaber.floating-icons",
-      "name": "Floating Icons",
-      "description": "Adds gentle floating animations to home-screen and dock icons. Configurable movement, rotation, and scale.",
+      "name": "图标漂浮",
+      "description": "为主屏幕和 Dock 图标添加轻微漂浮动画，可配置移动、旋转和缩放效果。",
       "version": "1.0.0",
       "author": "@MinePlayer16",
       "symbol": "wind",
@@ -52,8 +52,8 @@
     },
     {
       "id": "lightsaber.dump-views",
-      "name": "Dump Views",
-      "description": "Diagnostic tool that dumps visible SpringBoard view trees to /tmp.",
+      "name": "导出视图树",
+      "description": "诊断工具：将当前可见的 SpringBoard 视图树导出到 /tmp。",
       "version": "1.0.0",
       "author": "@MinePlayer16",
       "symbol": "ladybug.fill",
